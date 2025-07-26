@@ -13,6 +13,7 @@ retract (
 )
 
 require (
+	github.com/alexvec/go-bip39 v1.1.0
 	github.com/araddon/dateparse v0.0.0-20210429162001-6b43995a97de
 	github.com/btcsuite/btcd/btcec/v2 v2.3.4
 	github.com/deckarep/golang-set v1.8.0
@@ -26,7 +27,6 @@ require (
 	github.com/shengdoushi/base58 v1.0.0
 	github.com/spf13/cobra v1.9.1
 	github.com/stretchr/testify v1.10.0
-	github.com/tyler-smith/go-bip39 v1.1.0
 	github.com/zondax/hid v0.9.2
 	go.uber.org/zap v1.27.0
 	golang.org/x/crypto v0.36.0
